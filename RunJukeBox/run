@@ -1,0 +1,9 @@
+#!/bin/bash
+
+java -jar ./apiServer.jar &
+cd app/
+yarn start &
+cd auth-server/
+node implicit_grant/app.js &
+echo 'Done Initializing'
+

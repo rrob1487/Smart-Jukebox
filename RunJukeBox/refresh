@@ -1,0 +1,6 @@
+#!/bin/bash
+
+cp ../blinds_project/target/blinds_project-1.0.jar ./
+mv blinds_project-1.0.jar apiServer.jar
+rm *.mp3
+
